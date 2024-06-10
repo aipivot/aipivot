@@ -1,0 +1,335 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.debugger {
+  border: 2px solid black;
+}
+
+.bg-grediant {
+  background: linear-gradient(180deg, #fbfbfb 27.96%, #d2dcff 102.93%);
+}
+
+.shape {
+  position: absolute;
+  animation: float 5s infinite;
+}
+
+.shape-1 {
+  top: 20%;
+  right: 20%;
+  animation-duration: 4s;
+}
+
+.shape-2 {
+  top: 20%;
+  left: -90px;
+  animation-duration: 6s;
+}
+
+.shape-3 {
+  top: 70%;
+  left: 25%;
+  animation-duration: 7s;
+}
+
+.shape-4 {
+  top: 60%;
+  right: 10%;
+  animation-duration: 5s;
+}
+
+.footerShape {
+  position: absolute;
+  animation: float 5s infinite;
+}
+
+.footer-shape-1 {
+  top: 5%;
+  right: 15%;
+  animation-duration: 4s;
+}
+
+.footer-shape-2 {
+  top: 5%;
+  left: -20px;
+  animation-duration: 6s;
+}
+
+.footer-shape-3 {
+  top: 70%;
+  left: 25%;
+  animation-duration: 7s;
+}
+
+.footer-shape-4 {
+  top: 70%;
+  right: 10%;
+  animation-duration: 5s;
+}
+
+.footer-shape-5 {
+  top: 20%;
+  left: 10%;
+  animation-duration: 5s;
+}
+
+.footer-shape-6 {
+  top: 30%;
+  right: 0%;
+  animation-duration: 5s;
+}
+.footer-shape-7 {
+  top: 50%;
+  left: 0%;
+  animation-duration: 5s;
+}
+
+.CTAbtn {
+  background: linear-gradient(
+    1.51deg,
+    #2364ff 1.73%,
+    #0847d3 50.45%,
+    #85adff 99.18%
+  );
+
+  border: 1px solid rgba(6, 98, 231, 1);
+
+  box-shadow: 0px 2px 24px 0px rgba(35, 100, 255, 0.46),
+    0px 0px 0px 0px rgba(255, 255, 255, 0.04);
+
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.CTAbtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 24px 0px rgba(35, 100, 255, 0.6),
+    0px 0px 0px 0px rgba(255, 255, 255, 0.04);
+}
+
+.secondaryBtn {
+  box-shadow: 0px 2px 24px 0px rgba(35, 100, 255, 0.3),
+    0px 0px 0px 0px rgba(255, 255, 255, 0.04);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 2px solid #0a42c7;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #0a42c7;
+}
+
+.secondaryBtn:hover {
+  color: white; /* hover:text-white */
+  background-color: #0a42c7; /* hover:bg-[#0A42C7] */
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 24px 0px rgba(35, 100, 255, 0.6),
+    0px 0px 0px 0px rgba(255, 255, 255, 0.04);
+}
+
+.sectionsButton {
+  background: linear-gradient(
+    1.51deg,
+    #719bff 1.73%,
+    #2065ff 50.45%,
+    #bcd2ff 99.18%
+  );
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s, color 0.3s;
+
+  /* Animation for neon shine effect */
+  animation: neonShine 1s infinite alternate;
+}
+
+@keyframes neonShine {
+  0% {
+    box-shadow: 0px 2px 24px 0px rgba(35, 100, 255, 0.46),
+      0px 0px 0px 0px rgba(255, 255, 255, 0.04);
+  }
+  100% {
+    box-shadow: 0px 2px 24px 0px rgb(35, 100, 255, 1),
+      0px 0px 8px 8px rgba(255, 255, 255, 0.4);
+  }
+}
+
+.sectionsButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 24px 0px rgba(35, 100, 255, 0.8),
+    0px 0px 16px 8px rgba(255, 255, 255, 0.4);
+  color: #f0f0f0;
+}
+
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 2s linear infinite;
+  display: inline-block;
+}
+
+.industry {
+  border: 1px solid rgba(213, 213, 213, 1);
+  padding: 3px 15px 3px 15px;
+  border-radius: 25px;
+  color: rgba(0, 27, 117, 1);
+  font-weight: 500;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.div1 {
+  height: 300px;
+  grid-area: 1 / 1 / 2 / 5;
+}
+.div2 {
+  height: 300px;
+  grid-area: 1 / 5 / 2 / 8;
+}
+.div3 {
+  height: 300px;
+  grid-area: 2 / 1 / 3 / 4;
+}
+.div4 {
+  height: 300px;
+  grid-area: 2 / 4 / 3 / 8;
+}
+
+@media (max-width: 640px) {
+  .shape-1 {
+    top: 15%;
+    right: 10%;
+    animation-duration: 4s;
+  }
+
+  .shape-2 {
+    top: 10%;
+    left: -130px;
+    animation-duration: 6s;
+  }
+
+  .shape-3 {
+    top: 80%;
+    left: 5%;
+    height: 60px;
+    animation-duration: 7s;
+  }
+
+  .shape-4 {
+    top: 85%;
+    right: 10%;
+    height: 60px;
+    animation-duration: 5s;
+  }
+
+  .footer-shape-1 {
+    top: 5%;
+    right: 15%;
+    height: 50px;
+    animation-duration: 4s;
+  }
+
+  .footer-shape-2 {
+    top: 5%;
+    left: -20px;
+    height: 60px;
+    animation-duration: 6s;
+  }
+
+  .footer-shape-3 {
+    top: 70%;
+    left: 5%;
+    height: 60px;
+    animation-duration: 7s;
+  }
+
+  .footer-shape-4 {
+    top: 70%;
+    right: 10%;
+    height: 60px;
+    animation-duration: 5s;
+  }
+
+  .footer-shape-5 {
+    top: 20%;
+    left: 10%;
+    height: 100px;
+    animation-duration: 5s;
+  }
+
+  .footer-shape-6 {
+    top: 30%;
+    right: 0%;
+    height: 60px;
+    animation-duration: 5s;
+  }
+  .footer-shape-7 {
+    top: 60%;
+    left: 0%;
+    height: 100px;
+    animation-duration: 5s;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .shape-3 {
+    top: 80%;
+    left: 5%;
+    animation-duration: 7s;
+  }
+
+  .shape-4 {
+    top: 85%;
+    right: 10%;
+    animation-duration: 5s;
+  }
+}
