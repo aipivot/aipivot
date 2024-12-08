@@ -5,35 +5,25 @@ import Image from "next/image";
 
 const experts = [
   {
-    image: "/experts/expert1.png",
-    name: "John Doe",
-    position: "AI Specialist",
+    image: "/experts/ankit.jpg",
+    name: "Ankit Jha",
+    position: "Gen AI strategy in India and South East Asia. Leading Data at Delta. Ex: IIT, Deutsche Telekom",
   },
   {
-    image: "/experts/mohamed.jpeg",
+    image: "/experts/mohammed.webp",
     name: "Mohamed Regaieg",
-    position: "CEO of Church Street",
+    position: "Generative AI Pioneer- Affrica and Middle East. Gen AI business pioneer.",
   },
   {
-    image: "/experts/expert3.png",
-    name: "Michael Brown",
-    position: "Machine Learning Engineer",
+    image: "/experts/neal.jpg",
+    name: "Neal Jha, PhD",
+    position: "Making performance accessible by addressing psychological safety around GenAI. Ethicist. Ex: NSU, SMU, Rio TInto",
   },
   {
-    image: "/experts/expert4.png",
-    name: "Michael 1",
-    position: "Machine Learning Engineer",
-  },
-  {
-    image: "/experts/expert5.png",
-    name: "Michael test",
-    position: "Machine Learning Engineer",
-  },
-  {
-    image: "/experts/expert6.png",
-    name: "Michael Brown",
-    position: "Machine Learning Engineer",
-  },
+    image: "/experts/rajath,jpg",
+    name: "Rajath Raghu",
+    position: "Generative AI scientist- North America. Expert copywriter, marketing wiz. Software design generalist",
+  } 
 ];
 
 const ExpertsCarousel = () => {
