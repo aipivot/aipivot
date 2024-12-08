@@ -138,7 +138,7 @@ function HeroSection() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="flex gap-2 justify-center items-center relative rounded-lg px-3 py-1 text-sm leading-6 text-[#828282] ring-2 ring-gray-900/10">
               <span style={{ cursor: "default", userSelect: "none" }}>
-                Get Insights under 24 hours
+                Request your 24-hour insights report
               </span>
               <ArrowRightIcon
                 color="#828282"
@@ -149,15 +149,14 @@ function HeroSection() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Drive{" "}
+              Applying{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-t from-blue-500 via-blue-600 to-blue-100">
-                Business Success
+                Enhanced business understanding
               </span>{" "}
-              with Gen-Z Powered AI Insights
+              with strategic Gen-AI implementations
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Obtain Insights Using the Future of AI, Powered by the Generation
-              Who Gets It
+              Organizations often have hidden efficiencies waiting to be discovered. Using our understanding of both business and pure play Generatvie AI, we reduce these inefficiencies by 85% in 15 days or less. 
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               {/* <a href="#solutions" className="secondaryBtn">

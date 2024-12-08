@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "AI Pivot",
   description:
-    "Drive Business Success with Gen-Z Powered AI Insights, At AI Pivot, we've driven impactful decisions across diverse domains. We're here to support you at every stage of your launch and analytics journey.",
+    "Using our understanding of both business and AI technology, we help integrate suitable tools into existing workflows and processes..",
 };
 
 export default function RootLayout({
