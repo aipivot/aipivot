@@ -16,15 +16,13 @@ function Experts() {
               <h1 className="font-semibold text-3xl md:text-4xl mt-4 md:mt-6">
                 Meet Our{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-t from-blue-500 via-blue-600 to-blue-100">
-                  Trusted Advisors
+                  Our expert group
                 </span>{" "}
               </h1>
             </div>
             <div className="w-full lg:w-1/2 mt-4 md:mt-6">
               <p className="text-gray-500">
-                Our advisors are seasoned professionals that bring a wealth of
-                knowledge and experience to help you navigate the complexities
-                of AI-powered decision-making and drive your business forward.
+              Experienced AI advisors for complex decision-making.
               </p>
             </div>
           </div>

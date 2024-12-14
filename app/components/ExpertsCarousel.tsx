@@ -17,10 +17,10 @@ const experts = [
   {
     image: "/experts/neal.jpg",
     name: "Neal Jha, PhD",
-    position: "Making performance accessible by addressing psychological safety around GenAI. Ethicist. Ex: NSU, SMU, Rio TInto",
+    position: "addressing psychological safety in the GenAl age. Ethics & People Advisor.  Current: Research @NUS, Lecturer@SMU, Ex- Rio Tinto, South32",
   },
   {
-    image: "/experts/rajath,jpg",
+    image: "/experts/rajath.jpg",
     name: "Rajath Raghu",
     position: "Generative AI scientist- North America. Expert copywriter, marketing wiz. Software design generalist",
   } 
