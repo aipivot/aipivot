@@ -14,9 +14,9 @@ function Experts() {
           <div className="flex flex-col lg:flex-row gap-4 w-full text-center lg:text-left">
             <div className="w-full lg:w-1/2">
               <h1 className="font-semibold text-3xl md:text-4xl mt-4 md:mt-6">
-                Meet Our{" "}
+                Meet {" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-t from-blue-500 via-blue-600 to-blue-100">
-                  Our expert group
+                  The smartest people in AI
                 </span>{" "}
               </h1>
             </div>

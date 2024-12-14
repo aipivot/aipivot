@@ -87,7 +87,7 @@ function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/ajha16/"
+              href="https://www.linkedin.com/company/aipivot"
             >
               <Image
                 src="/social-medias/linkedIn.png"
@@ -99,7 +99,7 @@ function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.instagram.com/ankitjh4/"
+              href="https://www.instagram.com/aipivot.io"
             >
               <Image
                 src="/social-medias/instagram.png"
@@ -111,7 +111,7 @@ function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://medium.com/@ankitx"
+              href="https://medium.com/"
             >
               <Image
                 src="/social-medias/meduim.png"
